@@ -9,12 +9,13 @@ import java.io.IOException;
 
 @WebServlet("/")
 public class MyPageServlet extends HttpServlet {
+    private static String index = "mypage.jsp";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
 
         req.setAttribute("name", "Serg");
-        req.getRequestDispatcher("mypage.jsp").forward(req, resp);
+        req.getRequestDispatcher(index).forward(req, resp);
     }
 }

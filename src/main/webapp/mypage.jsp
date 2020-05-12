@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Serg.com</title>
+    <title>Sergio.com</title>
 </head>
 
 <body>
